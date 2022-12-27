@@ -1053,6 +1053,7 @@ header #hamburger_menu .active_bar_3 {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 #movie .visual .movie video {
   position: absolute;
