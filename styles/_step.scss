@@ -1,0 +1,51 @@
+@use "./variables" as var;
+
+#step {
+  //   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .step {
+    .block {
+      position: relative;
+      margin-bottom: 30px;
+
+      .square {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 60px;
+        background-color: var.$main_color;
+        color: white;
+      }
+      .triangle {
+        width: 120px;
+        height: 30px;
+
+        border-top: solid 30px var.$main_color;
+        border-left: solid 60px transparent;
+        border-right: solid 60px transparent;
+      }
+      &::before {
+        z-index: -10;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "";
+        width: 10px;
+        height: 80px;
+        background-color: var.$base_color;
+      }
+      &:last-child::before {
+        display: none;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

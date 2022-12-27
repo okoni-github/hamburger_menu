@@ -1,0 +1,28 @@
+@use "./variables" as var;
+
+#rellax_js {
+  height: 2000px;
+  div {
+    background-color: var.$base_color;
+    height: 100%;
+
+    .text {
+      font-size: 110px;
+      opacity: 0.3;
+    }
+    .img_no_01 {
+      border-radius: 10px;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 30px;
+    }
+    .img_no_02 {
+      border-radius: 10px;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      right: 30px;
+    }
+  }
+}

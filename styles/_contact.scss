@@ -1,0 +1,277 @@
+@use "./variables" as var;
+
+#contact {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  a {
+    position: relative;
+    // margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    button {
+      z-index: 120;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 350px;
+      height: 100px;
+      border: none;
+      font-size: 40px;
+      letter-spacing: 5px;
+      font-weight: 900;
+      background: linear-gradient(to right, rgb(66, 66, 169), rgb(175, 82, 82));
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .background {
+      z-index: 100;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 350px;
+      height: 100px;
+      border-radius: 10px;
+      background-color: var.$base_color;
+    }
+
+    #move_button {
+      z-index: 110;
+      position: absolute;
+      top: 0;
+      left: -350px;
+      width: 350px;
+      height: 100px;
+      border-radius: 10px;
+      background-color: var.$accent_color;
+      transition: all 0.6s ease;
+    }
+
+    .move_button {
+      left: 0 !important;
+    }
+  }
+
+  .ball {
+    z-index: -1;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 100%;
+    background: linear-gradient(to top left, var.$main_color, var.$base_color);
+  }
+  .no_1 {
+    top: -50%;
+    right: -150%;
+    animation: 6s linear 0s infinite no_1;
+  }
+
+  .no_2 {
+    top: -50%;
+    right: -120%;
+    animation: 6s linear 0s infinite no_2;
+  }
+
+  .no_3 {
+    top: -50%;
+    right: -90%;
+    animation: 6s linear 0s infinite no_3;
+  }
+
+  .no_4 {
+    top: -50%;
+    right: -60%;
+    animation: 6s linear 0s infinite no_4;
+  }
+
+  .no_5 {
+    top: -50%;
+    right: -30%;
+    animation: 6s linear 0s infinite no_5;
+  }
+
+  .no_6 {
+    top: -50%;
+    right: 0%;
+    animation: 6s linear 0s infinite no_6;
+  }
+
+  .no_7 {
+    top: -50%;
+    right: 30%;
+    animation: 6s linear 0s infinite no_7;
+  }
+
+  .no_8 {
+    top: -50%;
+    right: -150%;
+    animation: 6s linear 2s infinite no_1;
+  }
+
+  .no_9 {
+    top: -50%;
+    right: -120%;
+    animation: 6s linear 2s infinite no_2;
+  }
+
+  .no_10 {
+    top: -50%;
+    right: -90%;
+    animation: 6s linear 2s infinite no_3;
+  }
+
+  .no_11 {
+    top: 0%;
+    right: -60%;
+    animation: 6s linear 2s infinite no_4;
+  }
+
+  .no_12 {
+    top: -50%;
+    right: -30%;
+    animation: 6s linear 2s infinite no_5;
+  }
+
+  .no_13 {
+    top: -50%;
+    right: 0%;
+    animation: 6s linear 2s infinite no_6;
+  }
+
+  .no_14 {
+    top: -50%;
+    right: 30%;
+    animation: 6s linear 2s infinite no_7;
+  }
+
+  .no_15 {
+    top: -50%;
+    right: -150%;
+    animation: 6s linear 4s infinite no_1;
+  }
+
+  .no_16 {
+    top: -50%;
+    right: -120%;
+    animation: 6s linear 4s infinite no_2;
+  }
+
+  .no_17 {
+    top: -50%;
+    right: -90%;
+    animation: 6s linear 4s infinite no_3;
+  }
+
+  .no_18 {
+    top: -50%;
+    right: -60%;
+    animation: 6s linear 4s infinite no_4;
+  }
+
+  .no_19 {
+    top: -50%;
+    right: -30%;
+    animation: 6s linear 4s infinite no_5;
+  }
+
+  .no_20 {
+    top: -50%;
+    right: 0%;
+    animation: 6s linear 4s infinite no_6;
+  }
+
+  .no_21 {
+    top: -50%;
+    right: 30%;
+    animation: 6s linear 4s infinite no_7;
+  }
+  @keyframes no_1 {
+    0% {
+      top: -50%;
+      right: -100%;
+    }
+    100% {
+      top: 100%;
+      right: 0%;
+    }
+  }
+
+  @keyframes no_2 {
+    0% {
+      top: -50%;
+      right: -70%;
+    }
+    100% {
+      top: 100%;
+      right: 30%;
+    }
+  }
+
+  @keyframes no_3 {
+    0% {
+      top: -50%;
+      right: -40%;
+    }
+    100% {
+      top: 100%;
+      right: 60%;
+    }
+  }
+
+  @keyframes no_4 {
+    0% {
+      top: -50%;
+      right: -10%;
+    }
+    100% {
+      top: 100%;
+      right: 90%;
+    }
+  }
+
+  @keyframes no_5 {
+    0% {
+      top: -50%;
+      right: 20%;
+    }
+    100% {
+      top: 100%;
+      right: 120%;
+    }
+  }
+
+  @keyframes no_6 {
+    0% {
+      top: -50%;
+      right: 50%;
+    }
+    100% {
+      top: 100%;
+      right: 150%;
+    }
+  }
+
+  @keyframes no_7 {
+    0% {
+      top: -50%;
+      right: 80%;
+    }
+    100% {
+      top: 100%;
+      right: 180%;
+    }
+  }
+}

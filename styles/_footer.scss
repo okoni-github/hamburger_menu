@@ -1,0 +1,6 @@
+@use "./variables" as var;
+
+.footer_content {
+  height: 800px;
+  background-color: var.$base_color;
+}

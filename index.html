@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中級以降分からない要素まとめ</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body id="body">
+    <header id="header" class="container">
+      <a href="./index.html">
+        <img src="./img/logo.png" alt="logo" />
+      </a>
+
+      <ul class="header_menu_1">
+        <li><a href="#slide_show">SLIDE_SHOW</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#card">CARD</a></li>
+      </ul>
+      <!-- スライド -->
+      <ul class="header_menu_2">
+        <li><a href="#slide_show">SLIDE_SHOW</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#card">CARD</a></li>
+      </ul>
+      <div id="mask"></div>
+      <div id="hamburger_menu">
+        <span class="hamburger_bar bar_1"></span>
+        <span class="hamburger_bar bar_2"></span>
+        <span class="hamburger_bar bar_3"></span>
+      </div>
+      <div id="top_button">TOP</div>
+    </header>
+    <section id="side_menu_section">
+      <div id="side_menu">
+        <ul>
+          <li><a href="#slide_show">SLIDE_SHOW</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#card">CARD</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="slide_show" class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <section id="parallax">
+      <!-- <div>PARALLAX</div>
+      <div class="parallax_contents">
+        <div class="parallax_content img_no_01">a</div>
+        <div class="parallax_content img_no_02">b</div>
+        <div class="parallax_content img_no_03">c</div>
+        <div class="parallax_content img_no_04">d</div>
+      </div> -->
+      <div>
+        <img
+          src="./img/location.jpeg"
+          alt=""
+          class="rellax"
+          data-rellax-speed="-17"
+          data-rellax-zindex="100"
+          data-rellax-percentage="0.4"
+        />
+      </div>
+    </section>
+    <section id="rellax_js">
+      <div>
+        <h1
+          class="rellax text"
+          data-rellax-speed="-6"
+          data-rellax-zindex="100"
+          data-rellax-percentage="0"
+        >
+          Rellax.js
+        </h1>
+        <img
+          src="./img/item8.jpg"
+          alt=""
+          class="rellax img_no_01"
+          data-rellax-speed="-5"
+          data-rellax-zindex="4"
+          data-rellax-percentage="-0.5"
+        />
+        <img
+          src="./img/item9.jpg"
+          alt=""
+          class="rellax img_no_02"
+          data-rellax-speed="-3"
+          data-rellax-zindex="4"
+          data-rellax-percentage="-0.3"
+        />
+      </div>
+    </section>
+    <section id="grid">
+      <div>GRID</div>
+      <div class="frame">
+        <div class="grid_item">header_logo</div>
+        <div class="grid_item">header</div>
+        <div class="grid_item">sidebar</div>
+        <div class="grid_item">main</div>
+        <div class="grid_item">
+          <div class="sub_1">sub_1</div>
+          <div class="sub_2">sub_2</div>
+        </div>
+        <div class="grid_item">footer_logo</div>
+        <div class="grid_item">footer</div>
+      </div>
+      <div class="frame">
+        <img class="grid_item" src="./img/item9.jpg" />
+        <img class="grid_item" src="./img/item10.jpg" />
+        <img class="grid_item" src="./img/item11.jpg" />
+        <img class="grid_item" src="./img/item12.jpg" />
+        <div class="grid_item">
+          <img class="sub_1" src="./img/item13.jpg" />
+          <img class="sub_2" src="./img/item14.jpg" />
+        </div>
+        <img class="grid_item" src="./img/item15.jpg" />
+        <img class="grid_item" src="./img/item16.jpg" />
+      </div>
+    </section>
+    <section id="slide_in">
+      <ul>
+        <li class="move up">
+          <a href="./item1.html"><img src="./img/item1.jpg" alt="" /></a>
+        </li>
+        <li class="move up">
+          <a href=""><img src="./img/item2.jpg" alt="" /></a>
+        </li>
+        <li class="move up">
+          <a href=""><img src="./img/item3.jpg" alt="" /></a>
+        </li>
+        <li class="move up">
+          <a href=""><img src="./img/item4.jpg" alt="" /></a>
+        </li>
+      </ul>
+      <p>
+        <a href="./page_1.html">more</a>
+      </p>
+    </section>
+    <section id="sticky">
+      <div>sticky</div>
+      <div class="sticky_container">
+        <section id="left">
+          <div class="left_box_1">
+            <div class="area left_area_1">content</div>
+            <div class="area left_area_2">hidden</div>
+          </div>
+          <div class="left_box_2">
+            <div class="area left_area_3">content</div>
+            <div class="area left_area_4">hidden</div>
+          </div>
+        </section>
+        <section id="right">
+          <div class="right_box_1">
+            <div class="area right_area_1">content</div>
+            <div class="area right_area_2">hidden</div>
+          </div>
+          <div class="right_box_2">
+            <div class="area right_area_3">content</div>
+            <div class="area right_area_4">hidden</div>
+          </div>
+        </section>
+      </div>
+      <div class="sticky_container">
+        <section id="left_sec">
+          <div class="left_box_1_sec">
+            <div class="area left_area_1_sec">content</div>
+            <div class="area left_area_2_sec">hidden</div>
+          </div>
+          <div class="left_box_2_sec">
+            <div class="area left_area_3_sec">content</div>
+            <div class="area left_area_4_sec">hidden</div>
+          </div>
+        </section>
+        <section id="middle">
+          <div class="middle_box_1">
+            <div class="area middle_area_1">content</div>
+            <div class="area middle_area_2">hidden</div>
+          </div>
+          <div class="middle_box_2">
+            <div class="area middle_area_3">content</div>
+            <div class="area middle_area_4">hidden</div>
+          </div>
+        </section>
+        <section id="right_sec">
+          <div class="right_box_1_sec">
+            <div class="area right_area_1_sec">content</div>
+            <div class="area right_area_2_sec">hidden</div>
+          </div>
+          <div class="right_box_2_sec">
+            <div class="area right_area_3_sec">content</div>
+            <div class="area right_area_4_sec">hidden</div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="contact">
+      <a id="contact_button" href="mailto:okoni.dev&#64;gmail.com">
+        <button>メールはこちら</button>
+        <div class="background"></div>
+        <div id="move_button"></div>
+      </a>
+      <div class="ball no_1"></div>
+      <div class="ball no_2"></div>
+      <div class="ball no_3"></div>
+      <div class="ball no_4"></div>
+      <div class="ball no_5"></div>
+      <div class="ball no_6"></div>
+      <div class="ball no_7"></div>
+      <div class="ball no_8"></div>
+      <div class="ball no_9"></div>
+      <div class="ball no_10"></div>
+      <div class="ball no_11"></div>
+      <div class="ball no_12"></div>
+      <div class="ball no_13"></div>
+      <div class="ball no_14"></div>
+      <div class="ball no_15"></div>
+      <div class="ball no_16"></div>
+      <div class="ball no_17"></div>
+      <div class="ball no_18"></div>
+      <div class="ball no_19"></div>
+      <div class="ball no_20"></div>
+      <div class="ball no_21"></div>
+    </section>
+    <section id="google_map">
+      <div class="iframe_wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451111.0712846425!2d153.08848355787165!3d-27.95393652579742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911a472b5d60b7%3A0x302a35af3deaf70!2z44Kq44O844K544OI44Op44Oq44KiIOOCr-OCpOODvOODs-OCuuODqeODs-ODiSDjgrTjg7zjg6vjg4njgrPjg7zjgrnjg4g!5e0!3m2!1sja!2sjp!4v1672013084988!5m2!1sja!2sjp"
+          width="1000"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d130734403.42740732!2d-3.4071994402099732!3d0.44613400042540896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e4!4m5!1s0x1325890a57d42d3d%3A0x94f9ab23a7eb0!2z44Ot44O844Oe5pWZ55qH5bqBICjjg5Djg4Hjgqvjg7MpIOOAkjAwMTIwIOODkOODgeOCq-ODsw!3m2!1d41.902916!2d12.453389!4m5!1s0x6b911a472b5d60b7%3A0x302a35af3deaf70!2z44Kq44O844K544OI44Op44Oq44KiIOOCr-OCpOODvOODs-OCuuODqeODs-ODiSDjgrTjg7zjg6vjg4njgrPjg7zjgrnjg4g!3m2!1d-28.016666999999998!2d153.4!5e0!3m2!1sja!2sjp!4v1672013676287!5m2!1sja!2sjp"
+        width="90%"
+        height="450"
+        style="border: 0; filter: grayscale(100%)"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section id="step">
+      <div class="step">
+        <div class="block">
+          <div class="square">① 計画する</div>
+          <div class="triangle"></div>
+        </div>
+
+        <div class="block">
+          <div class="square">② 実行する</div>
+          <div class="triangle"></div>
+        </div>
+
+        <div class="block">
+          <div class="square">③ 確認する</div>
+          <div class="triangle"></div>
+        </div>
+
+        <div class="block">
+          <div class="square">④ 改善する</div>
+          <div class="triangle"></div>
+        </div>
+      </div>
+    </section>
+    <section id="movie">
+      <div class="visual">
+        <div class="movie">
+          <video
+            src="./img/video.mp4"
+            poster="https://www.youtube.com/"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </div>
+      <video src="./img/video.mp4" controls autoplay loop muted></video>
+    </section>
+    <section id="card">
+      <div>CARD</div>
+      <div>
+        カードホバーで少し上に動く<br />
+        ※画像だけ動かない
+      </div>
+    </section>
+    <section id="background_color_change">
+      <div>この要素は背景黒</div>
+      <div>この要素に入ったら背景なんかの画像</div>
+      <div>この要素に入ったら背景黒</div>
+    </section>
+    <footer id="footer">
+      <div class="footer_content">
+        <div>Trelloのデザインカードのやりたいやつやる</div>
+      </div>
+    </footer>
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/footer.js"></script>
+    <script src="./scripts/side_menu.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"
+      integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./scripts/swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="./scripts/rellax.js"></script>
+    <script src="./scripts/move_img.js"></script>
+    <script src="./scripts/contact.js"></script>
+  </body>
+</html>
