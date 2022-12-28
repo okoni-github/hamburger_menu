@@ -1,0 +1,81 @@
+@use "./variables" as var;
+
+#card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+  .main-card {
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+    padding-left: 112px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 112px;
+      height: 240px;
+      object-fit: cover;
+      object-position: 50% 80%;
+      transition: all 0.4s ease;
+    }
+
+    .card-contents {
+      padding: 10px 20px;
+      ul {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 6px;
+
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+          margin-right: 18px;
+
+          span {
+            font-size: 24px;
+          }
+
+          &:last-child {
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+
+    .text-content {
+      h1 {
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+    &:hover {
+      top: -30px;
+    }
+
+    &:hover img {
+      bottom: -30px;
+    }
+  }
+}

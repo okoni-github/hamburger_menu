@@ -10,12 +10,12 @@ header {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 100%;
   height: 200px;
   margin-bottom: 80px;
@@ -30,12 +30,12 @@ header .header_menu_1 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 header .header_menu_1 li {
   margin-left: 30px;
@@ -102,7 +102,7 @@ header #hamburger_menu .active_bar_1 {
   background-color: #975fcf;
   top: 50%;
   -webkit-transform: rotate(315deg);
-          transform: rotate(315deg);
+  transform: rotate(315deg);
 }
 header #hamburger_menu .active_bar_2 {
   background-color: #975fcf;
@@ -112,7 +112,7 @@ header #hamburger_menu .active_bar_3 {
   background-color: #975fcf;
   top: 50%;
   -webkit-transform: rotate(-315deg);
-          transform: rotate(-315deg);
+  transform: rotate(-315deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -131,12 +131,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -150,7 +150,7 @@ header #hamburger_menu .active_bar_3 {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   -webkit-box-shadow: gray 0px 0px 5px 0px;
-          box-shadow: gray 0px 0px 5px 0px;
+  box-shadow: gray 0px 0px 5px 0px;
 }
 
 .active_top_button {
@@ -165,12 +165,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: fixed;
   top: -70px;
   right: 0;
@@ -178,7 +178,7 @@ header #hamburger_menu .active_bar_3 {
   height: 50px;
   background-color: #c5cf5f;
   -webkit-box-shadow: gray 0px 0px 5px 0px;
-          box-shadow: gray 0px 0px 5px 0px;
+  box-shadow: gray 0px 0px 5px 0px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -189,12 +189,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 #side_menu ul li {
   margin-right: 60px;
@@ -243,9 +243,9 @@ header #hamburger_menu .active_bar_3 {
   width: 100%;
   height: 1000px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 70% 0%;
-     object-position: 70% 0%;
+  object-position: 70% 0%;
 }
 
 #rellax_js {
@@ -284,19 +284,19 @@ header #hamburger_menu .active_bar_3 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 #grid .grid_item:nth-child(1) {
   grid-area: header_logo;
@@ -322,7 +322,7 @@ header #hamburger_menu .active_bar_3 {
 #grid .grid_item:nth-child(5) .sub_1 {
   grid-area: sub_1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -331,18 +331,18 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: rgba(255, 0, 89, 0.515);
 }
 #grid .grid_item:nth-child(5) .sub_2 {
   grid-area: sub_2;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -351,12 +351,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: rgba(0, 255, 251, 0.515);
 }
 #grid .grid_item:nth-child(6) {
@@ -380,12 +380,12 @@ header #hamburger_menu .active_bar_3 {
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   #grid .grid_item:nth-child(1) {
     grid-area: header_logo;
@@ -418,15 +418,15 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #slide_in ul .move {
   margin: 6px 10px;
@@ -439,24 +439,24 @@ header #hamburger_menu .active_bar_3 {
 }
 #slide_in ul .up {
   -webkit-transform: translate(0, 60px);
-          transform: translate(0, 60px);
+  transform: translate(0, 60px);
 }
 #slide_in ul .down {
   -webkit-transform: translate(0, -60px);
-          transform: translate(0, -60px);
+  transform: translate(0, -60px);
 }
 #slide_in ul .left {
   -webkit-transform: translate(-60px, 0);
-          transform: translate(-60px, 0);
+  transform: translate(-60px, 0);
 }
 #slide_in ul .right {
   -webkit-transform: translate(60px, 0);
-          transform: translate(60px, 0);
+  transform: translate(60px, 0);
 }
 #slide_in ul .move_img {
   margin: 6px 10px;
   -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  transform: translate(0, 0);
   opacity: 1;
 }
 #slide_in ul .move_img a img {
@@ -481,12 +481,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 #sticky #left {
   width: 50%;
@@ -633,7 +633,7 @@ header #hamburger_menu .active_bar_3 {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: block;
   width: 350px;
   height: 100px;
@@ -651,11 +651,17 @@ header #hamburger_menu .active_bar_3 {
   font-size: 40px;
   letter-spacing: 5px;
   font-weight: 900;
-  background: -webkit-gradient(linear, left top, right top, from(rgb(66, 66, 169)), to(rgb(175, 82, 82)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(66, 66, 169)),
+    to(rgb(175, 82, 82))
+  );
   background: -webkit-linear-gradient(left, rgb(66, 66, 169), rgb(175, 82, 82));
   background: linear-gradient(to right, rgb(66, 66, 169), rgb(175, 82, 82));
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
   cursor: pointer;
@@ -693,7 +699,13 @@ header #hamburger_menu .active_bar_3 {
   width: 18vw;
   height: 18vw;
   border-radius: 100%;
-  background: -webkit-gradient(linear, right bottom, left top, from(#975fcf), to(#f3edfa));
+  background: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    from(#975fcf),
+    to(#f3edfa)
+  );
   background: -webkit-linear-gradient(bottom right, #975fcf, #f3edfa);
   background: linear-gradient(to top left, #975fcf, #f3edfa);
 }
@@ -701,127 +713,127 @@ header #hamburger_menu .active_bar_3 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 0s infinite no_1;
-          animation: 6s linear 0s infinite no_1;
+  animation: 6s linear 0s infinite no_1;
 }
 #contact .no_2 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 0s infinite no_2;
-          animation: 6s linear 0s infinite no_2;
+  animation: 6s linear 0s infinite no_2;
 }
 #contact .no_3 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 0s infinite no_3;
-          animation: 6s linear 0s infinite no_3;
+  animation: 6s linear 0s infinite no_3;
 }
 #contact .no_4 {
   top: -50%;
   right: -60%;
   -webkit-animation: 6s linear 0s infinite no_4;
-          animation: 6s linear 0s infinite no_4;
+  animation: 6s linear 0s infinite no_4;
 }
 #contact .no_5 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 0s infinite no_5;
-          animation: 6s linear 0s infinite no_5;
+  animation: 6s linear 0s infinite no_5;
 }
 #contact .no_6 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 0s infinite no_6;
-          animation: 6s linear 0s infinite no_6;
+  animation: 6s linear 0s infinite no_6;
 }
 #contact .no_7 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 0s infinite no_7;
-          animation: 6s linear 0s infinite no_7;
+  animation: 6s linear 0s infinite no_7;
 }
 #contact .no_8 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 2s infinite no_1;
-          animation: 6s linear 2s infinite no_1;
+  animation: 6s linear 2s infinite no_1;
 }
 #contact .no_9 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 2s infinite no_2;
-          animation: 6s linear 2s infinite no_2;
+  animation: 6s linear 2s infinite no_2;
 }
 #contact .no_10 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 2s infinite no_3;
-          animation: 6s linear 2s infinite no_3;
+  animation: 6s linear 2s infinite no_3;
 }
 #contact .no_11 {
   top: 0%;
   right: -60%;
   -webkit-animation: 6s linear 2s infinite no_4;
-          animation: 6s linear 2s infinite no_4;
+  animation: 6s linear 2s infinite no_4;
 }
 #contact .no_12 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 2s infinite no_5;
-          animation: 6s linear 2s infinite no_5;
+  animation: 6s linear 2s infinite no_5;
 }
 #contact .no_13 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 2s infinite no_6;
-          animation: 6s linear 2s infinite no_6;
+  animation: 6s linear 2s infinite no_6;
 }
 #contact .no_14 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 2s infinite no_7;
-          animation: 6s linear 2s infinite no_7;
+  animation: 6s linear 2s infinite no_7;
 }
 #contact .no_15 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 4s infinite no_1;
-          animation: 6s linear 4s infinite no_1;
+  animation: 6s linear 4s infinite no_1;
 }
 #contact .no_16 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 4s infinite no_2;
-          animation: 6s linear 4s infinite no_2;
+  animation: 6s linear 4s infinite no_2;
 }
 #contact .no_17 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 4s infinite no_3;
-          animation: 6s linear 4s infinite no_3;
+  animation: 6s linear 4s infinite no_3;
 }
 #contact .no_18 {
   top: -50%;
   right: -60%;
   -webkit-animation: 6s linear 4s infinite no_4;
-          animation: 6s linear 4s infinite no_4;
+  animation: 6s linear 4s infinite no_4;
 }
 #contact .no_19 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 4s infinite no_5;
-          animation: 6s linear 4s infinite no_5;
+  animation: 6s linear 4s infinite no_5;
 }
 #contact .no_20 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 4s infinite no_6;
-          animation: 6s linear 4s infinite no_6;
+  animation: 6s linear 4s infinite no_6;
 }
 #contact .no_21 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 4s infinite no_7;
-          animation: 6s linear 4s infinite no_7;
+  animation: 6s linear 4s infinite no_7;
 }
 @-webkit-keyframes no_1 {
   0% {
@@ -985,12 +997,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 #step .step .block {
   position: relative;
@@ -1003,12 +1015,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 120px;
   height: 60px;
   background-color: #975fcf;
@@ -1027,7 +1039,7 @@ header #hamburger_menu .active_bar_3 {
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   content: "";
   width: 10px;
   height: 80px;
@@ -1060,12 +1072,123 @@ header #hamburger_menu .active_bar_3 {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: block;
   width: auto;
   height: auto;
   min-width: 100%;
   min-height: 100%;
+}
+
+#card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 300px;
+}
+#card .main-card {
+  margin-top: 60px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.8);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding-left: 112px;
+  overflow: hidden;
+}
+#card .main-card img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 112px;
+  height: 240px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 80%;
+  object-position: 50% 80%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#card .main-card .card-contents {
+  padding: 10px 20px;
+}
+#card .main-card .card-contents ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+#card .main-card .card-contents ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 18px;
+}
+#card .main-card .card-contents ul li span {
+  font-size: 24px;
+}
+#card .main-card .card-contents ul li:last-child {
+  margin-right: 0px;
+}
+#card .main-card .text-content h1 {
+  text-align: left;
+}
+#card .main-card .text-content p {
+  text-align: left;
+}
+#card .main-card:hover {
+  top: -30px;
+}
+#card .main-card:hover img {
+  bottom: -30px;
 }
 
 .footer_content {
@@ -1077,7 +1200,7 @@ header #hamburger_menu .active_bar_3 {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -1099,4 +1222,4 @@ a {
 
 section {
   margin-bottom: 80px !important;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

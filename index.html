@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>中級以降分からない要素まとめ</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./img/favicon.png" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
   <body id="body">
@@ -293,32 +299,62 @@
     <section id="movie">
       <div class="visual">
         <div class="movie">
-          <video
-            src="./img/video.mp4"
-            poster="https://www.youtube.com/"
-            autoplay
-            loop
-            muted
-          ></video>
+          <video src="./img/video.mp4" autoplay loop muted></video>
         </div>
       </div>
       <video src="./img/video.mp4" controls autoplay loop muted></video>
     </section>
     <section id="card">
-      <div>CARD</div>
-      <div>
-        カードホバーで少し上に動く<br />
-        ※画像だけ動かない
+      <div class="main-card">
+        <img src="./img/item7.jpg" alt="" />
+        <div class="card-contents">
+          <ul>
+            <li>
+              <span class="material-symbols-outlined"> check_circle </span>
+            </li>
+            <li>
+              <span class="material-symbols-outlined"> heart_plus </span>
+            </li>
+            <li><span class="material-symbols-outlined"> person </span></li>
+            <li>
+              <span class="material-symbols-outlined"> emoji_flags </span>
+            </li>
+          </ul>
+          <div class="text-content">
+            <h1>Lorem ipsum</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
       </div>
+    </section>
+    <section id="scroll-section">
+      <div class="area area-1">1</div>
+      <div class="area area-2">2</div>
+      <div class="area area-3">3</div>
+      <div class="area area-4">4</div>
+      <div class="area area-5">5</div>
     </section>
     <section id="background_color_change">
       <div>この要素は背景黒</div>
       <div>この要素に入ったら背景なんかの画像</div>
       <div>この要素に入ったら背景黒</div>
     </section>
-    <footer id="footer">
-      <div class="footer_content">
+    <section id="opening_animation">
+      <p>
+        <img src="./img/location.jpeg" alt="" />
+      </p>
+      <h1>オープニングアニメーション</h1>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <a href="">
+          <div class="footer-inner-circle">
+            <span class="material-symbols-outlined"> handshake </span>
+          </div>
+        </a>
+        <div class="footer-outer-circle"></div>
         <div>Trelloのデザインカードのやりたいやつやる</div>
+        <div class="footer-main">&copy;2022 OKONI JAPAN</div>
       </div>
     </footer>
     <script src="./scripts/header.js"></script>
