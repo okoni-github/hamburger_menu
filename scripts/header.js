@@ -69,18 +69,22 @@ for (let i = 0; i < smoothScroll.length; i++) {
 
 // トップボタン
 
-window.addEventListener("scroll", () => {
-  let top_button = document.getElementById("top_button");
-  let header = document.getElementById("header");
-  let headerHight = header.offsetHeight;
-  let offset = window.scrollY;
+window.addEventListener(
+  "scroll",
+  () => {
+    let top_button = document.getElementById("top_button");
+    let header = document.getElementById("header");
+    let headerHight = header.offsetHeight;
+    let offset = window.scrollY;
 
-  if (headerHight < offset) {
-    top_button.classList.add("active_top_button");
-  } else {
-    top_button.classList.remove("active_top_button");
-  }
-});
+    if (headerHight < offset) {
+      top_button.classList.add("active_top_button");
+    } else {
+      top_button.classList.remove("active_top_button");
+    }
+  },
+  { passive: true }
+);
 
 top_button.onclick = (e) => {
   e.preventDefault();

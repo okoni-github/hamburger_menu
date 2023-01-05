@@ -2,11 +2,11 @@
 
 #contact {
   position: relative;
-  height: 700px;
+  height: calc(100vh - 50px);
   overflow: hidden;
-  a {
+  #contact_button {
+    z-index: 1000;
     position: relative;
-    // margin: 0 auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -18,7 +18,7 @@
     overflow: hidden;
 
     button {
-      z-index: 120;
+      z-index: 1000;
       position: absolute;
       top: 0;
       left: 0;
@@ -36,7 +36,7 @@
     }
 
     .background {
-      z-index: 100;
+      z-index: 800;
       position: absolute;
       top: 0;
       left: 0;
@@ -47,7 +47,7 @@
     }
 
     #move_button {
-      z-index: 110;
+      z-index: 900;
       position: absolute;
       top: 0;
       left: -350px;
@@ -64,7 +64,7 @@
   }
 
   .ball {
-    z-index: -1;
+    z-index: 100;
     position: absolute;
     width: 220px;
     height: 220px;

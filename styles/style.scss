@@ -12,7 +12,9 @@
 @use "./step";
 @use "./movie";
 @use "./card";
+@use "./scroll_section";
 @use "./background_color_change";
+@use "./opening_animation";
 @use "./footer";
 
 * {
@@ -21,7 +23,6 @@
   box-sizing: border-box;
   //簡単スクロール
   // scroll-behavior: smooth;
-
   text-align: center;
 }
 

@@ -1,0 +1,40 @@
+#scroll_section {
+  /* scroll-snap */
+  width: 100%;
+  height: calc(100vh - 50px);
+  scroll-snap-type: y mandatory;
+  /* overflow: scroll; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 60px;
+
+  .area {
+    font-size: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    scroll-snap-align: start;
+  }
+
+  .area-1 {
+    background-color: rgb(132, 214, 214);
+  }
+
+  .area-2 {
+    background-color: rgb(196, 214, 132);
+  }
+
+  .area-3 {
+    background-color: rgb(132, 158, 214);
+  }
+
+  .area-4 {
+    background-color: rgb(214, 132, 157);
+  }
+
+  .area-5 {
+    background-color: rgb(157, 132, 214);
+  }
+}

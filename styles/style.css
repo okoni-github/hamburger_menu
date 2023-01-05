@@ -10,15 +10,16 @@ header {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   height: 200px;
   margin-bottom: 80px;
+  z-index: 1000;
 }
 header img {
   width: 200px;
@@ -30,12 +31,12 @@ header .header_menu_1 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 header .header_menu_1 li {
   margin-left: 30px;
@@ -102,7 +103,7 @@ header #hamburger_menu .active_bar_1 {
   background-color: #975fcf;
   top: 50%;
   -webkit-transform: rotate(315deg);
-  transform: rotate(315deg);
+          transform: rotate(315deg);
 }
 header #hamburger_menu .active_bar_2 {
   background-color: #975fcf;
@@ -112,7 +113,7 @@ header #hamburger_menu .active_bar_3 {
   background-color: #975fcf;
   top: 50%;
   -webkit-transform: rotate(-315deg);
-  transform: rotate(-315deg);
+          transform: rotate(-315deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -131,12 +132,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -150,7 +151,7 @@ header #hamburger_menu .active_bar_3 {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   -webkit-box-shadow: gray 0px 0px 5px 0px;
-  box-shadow: gray 0px 0px 5px 0px;
+          box-shadow: gray 0px 0px 5px 0px;
 }
 
 .active_top_button {
@@ -158,19 +159,19 @@ header #hamburger_menu .active_bar_3 {
 }
 
 #side_menu {
-  z-index: 1000;
+  z-index: 1100;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
   top: -70px;
   right: 0;
@@ -178,7 +179,7 @@ header #hamburger_menu .active_bar_3 {
   height: 50px;
   background-color: #c5cf5f;
   -webkit-box-shadow: gray 0px 0px 5px 0px;
-  box-shadow: gray 0px 0px 5px 0px;
+          box-shadow: gray 0px 0px 5px 0px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -189,12 +190,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #side_menu ul li {
   margin-right: 60px;
@@ -243,9 +244,9 @@ header #hamburger_menu .active_bar_3 {
   width: 100%;
   height: 1000px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: 70% 0%;
-  object-position: 70% 0%;
+     object-position: 70% 0%;
 }
 
 #rellax_js {
@@ -284,19 +285,19 @@ header #hamburger_menu .active_bar_3 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #grid .grid_item:nth-child(1) {
   grid-area: header_logo;
@@ -322,7 +323,7 @@ header #hamburger_menu .active_bar_3 {
 #grid .grid_item:nth-child(5) .sub_1 {
   grid-area: sub_1;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -331,18 +332,18 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(255, 0, 89, 0.515);
 }
 #grid .grid_item:nth-child(5) .sub_2 {
   grid-area: sub_2;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -351,12 +352,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(0, 255, 251, 0.515);
 }
 #grid .grid_item:nth-child(6) {
@@ -380,12 +381,12 @@ header #hamburger_menu .active_bar_3 {
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #grid .grid_item:nth-child(1) {
     grid-area: header_logo;
@@ -418,15 +419,15 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 #slide_in ul .move {
   margin: 6px 10px;
@@ -439,24 +440,24 @@ header #hamburger_menu .active_bar_3 {
 }
 #slide_in ul .up {
   -webkit-transform: translate(0, 60px);
-  transform: translate(0, 60px);
+          transform: translate(0, 60px);
 }
 #slide_in ul .down {
   -webkit-transform: translate(0, -60px);
-  transform: translate(0, -60px);
+          transform: translate(0, -60px);
 }
 #slide_in ul .left {
   -webkit-transform: translate(-60px, 0);
-  transform: translate(-60px, 0);
+          transform: translate(-60px, 0);
 }
 #slide_in ul .right {
   -webkit-transform: translate(60px, 0);
-  transform: translate(60px, 0);
+          transform: translate(60px, 0);
 }
 #slide_in ul .move_img {
   margin: 6px 10px;
   -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
+          transform: translate(0, 0);
   opacity: 1;
 }
 #slide_in ul .move_img a img {
@@ -481,12 +482,12 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #sticky #left {
   width: 50%;
@@ -625,23 +626,24 @@ header #hamburger_menu .active_bar_3 {
 
 #contact {
   position: relative;
-  height: 700px;
+  height: calc(100vh - 50px);
   overflow: hidden;
 }
-#contact a {
+#contact #contact_button {
+  z-index: 1000;
   position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: block;
   width: 350px;
   height: 100px;
   border-radius: 10px;
   overflow: hidden;
 }
-#contact a button {
-  z-index: 120;
+#contact #contact_button button {
+  z-index: 1000;
   position: absolute;
   top: 0;
   left: 0;
@@ -651,23 +653,17 @@ header #hamburger_menu .active_bar_3 {
   font-size: 40px;
   letter-spacing: 5px;
   font-weight: 900;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(rgb(66, 66, 169)),
-    to(rgb(175, 82, 82))
-  );
+  background: -webkit-gradient(linear, left top, right top, from(rgb(66, 66, 169)), to(rgb(175, 82, 82)));
   background: -webkit-linear-gradient(left, rgb(66, 66, 169), rgb(175, 82, 82));
   background: linear-gradient(to right, rgb(66, 66, 169), rgb(175, 82, 82));
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
   cursor: pointer;
 }
-#contact a .background {
-  z-index: 100;
+#contact #contact_button .background {
+  z-index: 800;
   position: absolute;
   top: 0;
   left: 0;
@@ -676,8 +672,8 @@ header #hamburger_menu .active_bar_3 {
   border-radius: 10px;
   background-color: #f3edfa;
 }
-#contact a #move_button {
-  z-index: 110;
+#contact #contact_button #move_button {
+  z-index: 900;
   position: absolute;
   top: 0;
   left: -350px;
@@ -688,24 +684,18 @@ header #hamburger_menu .active_bar_3 {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-#contact a .move_button {
+#contact #contact_button .move_button {
   left: 0 !important;
 }
 #contact .ball {
-  z-index: -1;
+  z-index: 100;
   position: absolute;
   width: 220px;
   height: 220px;
   width: 18vw;
   height: 18vw;
   border-radius: 100%;
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#975fcf),
-    to(#f3edfa)
-  );
+  background: -webkit-gradient(linear, right bottom, left top, from(#975fcf), to(#f3edfa));
   background: -webkit-linear-gradient(bottom right, #975fcf, #f3edfa);
   background: linear-gradient(to top left, #975fcf, #f3edfa);
 }
@@ -713,127 +703,127 @@ header #hamburger_menu .active_bar_3 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 0s infinite no_1;
-  animation: 6s linear 0s infinite no_1;
+          animation: 6s linear 0s infinite no_1;
 }
 #contact .no_2 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 0s infinite no_2;
-  animation: 6s linear 0s infinite no_2;
+          animation: 6s linear 0s infinite no_2;
 }
 #contact .no_3 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 0s infinite no_3;
-  animation: 6s linear 0s infinite no_3;
+          animation: 6s linear 0s infinite no_3;
 }
 #contact .no_4 {
   top: -50%;
   right: -60%;
   -webkit-animation: 6s linear 0s infinite no_4;
-  animation: 6s linear 0s infinite no_4;
+          animation: 6s linear 0s infinite no_4;
 }
 #contact .no_5 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 0s infinite no_5;
-  animation: 6s linear 0s infinite no_5;
+          animation: 6s linear 0s infinite no_5;
 }
 #contact .no_6 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 0s infinite no_6;
-  animation: 6s linear 0s infinite no_6;
+          animation: 6s linear 0s infinite no_6;
 }
 #contact .no_7 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 0s infinite no_7;
-  animation: 6s linear 0s infinite no_7;
+          animation: 6s linear 0s infinite no_7;
 }
 #contact .no_8 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 2s infinite no_1;
-  animation: 6s linear 2s infinite no_1;
+          animation: 6s linear 2s infinite no_1;
 }
 #contact .no_9 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 2s infinite no_2;
-  animation: 6s linear 2s infinite no_2;
+          animation: 6s linear 2s infinite no_2;
 }
 #contact .no_10 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 2s infinite no_3;
-  animation: 6s linear 2s infinite no_3;
+          animation: 6s linear 2s infinite no_3;
 }
 #contact .no_11 {
   top: 0%;
   right: -60%;
   -webkit-animation: 6s linear 2s infinite no_4;
-  animation: 6s linear 2s infinite no_4;
+          animation: 6s linear 2s infinite no_4;
 }
 #contact .no_12 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 2s infinite no_5;
-  animation: 6s linear 2s infinite no_5;
+          animation: 6s linear 2s infinite no_5;
 }
 #contact .no_13 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 2s infinite no_6;
-  animation: 6s linear 2s infinite no_6;
+          animation: 6s linear 2s infinite no_6;
 }
 #contact .no_14 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 2s infinite no_7;
-  animation: 6s linear 2s infinite no_7;
+          animation: 6s linear 2s infinite no_7;
 }
 #contact .no_15 {
   top: -50%;
   right: -150%;
   -webkit-animation: 6s linear 4s infinite no_1;
-  animation: 6s linear 4s infinite no_1;
+          animation: 6s linear 4s infinite no_1;
 }
 #contact .no_16 {
   top: -50%;
   right: -120%;
   -webkit-animation: 6s linear 4s infinite no_2;
-  animation: 6s linear 4s infinite no_2;
+          animation: 6s linear 4s infinite no_2;
 }
 #contact .no_17 {
   top: -50%;
   right: -90%;
   -webkit-animation: 6s linear 4s infinite no_3;
-  animation: 6s linear 4s infinite no_3;
+          animation: 6s linear 4s infinite no_3;
 }
 #contact .no_18 {
   top: -50%;
   right: -60%;
   -webkit-animation: 6s linear 4s infinite no_4;
-  animation: 6s linear 4s infinite no_4;
+          animation: 6s linear 4s infinite no_4;
 }
 #contact .no_19 {
   top: -50%;
   right: -30%;
   -webkit-animation: 6s linear 4s infinite no_5;
-  animation: 6s linear 4s infinite no_5;
+          animation: 6s linear 4s infinite no_5;
 }
 #contact .no_20 {
   top: -50%;
   right: 0%;
   -webkit-animation: 6s linear 4s infinite no_6;
-  animation: 6s linear 4s infinite no_6;
+          animation: 6s linear 4s infinite no_6;
 }
 #contact .no_21 {
   top: -50%;
   right: 30%;
   -webkit-animation: 6s linear 4s infinite no_7;
-  animation: 6s linear 4s infinite no_7;
+          animation: 6s linear 4s infinite no_7;
 }
 @-webkit-keyframes no_1 {
   0% {
@@ -997,36 +987,40 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #step .step .block {
   position: relative;
   margin-bottom: 30px;
 }
 #step .step .block .square {
+  position: relative;
+  z-index: 100;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 120px;
   height: 60px;
   background-color: #975fcf;
   color: white;
 }
 #step .step .block .triangle {
+  position: relative;
+  z-index: 100;
   width: 120px;
   height: 30px;
   border-top: solid 30px #975fcf;
@@ -1034,12 +1028,12 @@ header #hamburger_menu .active_bar_3 {
   border-right: solid 60px transparent;
 }
 #step .step .block::before {
-  z-index: -10;
+  z-index: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   content: "";
   width: 10px;
   height: 80px;
@@ -1065,19 +1059,22 @@ header #hamburger_menu .active_bar_3 {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 #movie .visual .movie video {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: block;
   width: auto;
   height: auto;
   min-width: 100%;
   min-height: 100%;
+}
+#movie video {
+  width: 100%;
 }
 
 #card {
@@ -1088,119 +1085,343 @@ header #hamburger_menu .active_bar_3 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 300px;
 }
-#card .main-card {
-  margin-top: 60px;
+#card a {
+  width: 100%;
+  width: 373.05px;
+  height: 112px;
+}
+#card a:hover .main-card {
+  -webkit-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
+}
+#card a:hover img {
+  -webkit-transform: translateY(9%);
+          transform: translateY(9%);
+}
+#card a .main-card {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, 0%);
-  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.8);
   border-radius: 5px;
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 112px;
   overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-#card .main-card img {
+#card a .main-card img {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 112px;
   height: 240px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: 50% 80%;
-  object-position: 50% 80%;
+     object-position: 50% 80%;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#card .main-card .card-contents {
+#card a .main-card .card-contents {
   padding: 10px 20px;
 }
-#card .main-card .card-contents ul {
+#card a .main-card .card-contents ul {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
   -webkit-justify-content: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 6px;
 }
-#card .main-card .card-contents ul li {
+#card a .main-card .card-contents ul li {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
   margin-right: 18px;
 }
-#card .main-card .card-contents ul li span {
+#card a .main-card .card-contents ul li span {
   font-size: 24px;
 }
-#card .main-card .card-contents ul li:last-child {
+#card a .main-card .card-contents ul li:last-child {
   margin-right: 0px;
 }
-#card .main-card .text-content h1 {
+#card a .main-card .text-content h1 {
   text-align: left;
 }
-#card .main-card .text-content p {
+#card a .main-card .text-content p {
   text-align: left;
-}
-#card .main-card:hover {
-  top: -30px;
-}
-#card .main-card:hover img {
-  bottom: -30px;
 }
 
-.footer_content {
-  height: 800px;
-  background-color: #f3edfa;
+#scroll_section {
+  /* scroll-snap */
+  width: 100%;
+  height: calc(100vh - 50px);
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+  /* overflow: scroll; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 60px;
+}
+#scroll_section .area {
+  font-size: 100px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 50px);
+  scroll-snap-align: start;
+}
+#scroll_section .area-1 {
+  background-color: rgb(132, 214, 214);
+}
+#scroll_section .area-2 {
+  background-color: rgb(196, 214, 132);
+}
+#scroll_section .area-3 {
+  background-color: rgb(132, 158, 214);
+}
+#scroll_section .area-4 {
+  background-color: rgb(214, 132, 157);
+}
+#scroll_section .area-5 {
+  background-color: rgb(157, 132, 214);
+}
+
+#background_color_change {
+  background-color: black;
+}
+#background_color_change .black_out {
+  width: 100%;
+  height: 150vh;
+}
+#background_color_change #img_content {
+  position: relative;
+  z-index: 200;
+  width: 100%;
+  height: 150vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 36px;
+}
+#background_color_change #img_in {
+  z-index: -100;
+  background: url(../img/item11.jpg) repeat 50% 50% !important;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+#background_color_change .active_img_in {
+  z-index: 100 !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+#opening_animation .start {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+#opening_animation .start #animation_img {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 990;
+  width: 500px;
+}
+#opening_animation .active_animation {
+  display: block;
+}
+
+.parent {
+  margin: 60px;
+  width: 100px;
+  height: 100px;
+  background-color: turquoise;
+}
+.parent .child1 {
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+}
+.parent:hover .child1 {
+  opacity: 0.6;
+}
+.parent .child2 {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+}
+
+.brother {
+  margin: 60px;
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+}
+.brother .child3 {
+  width: 50px;
+  height: 50px;
+  background-color: darkorange;
+}
+.brother .child4 {
+  width: 50px;
+  height: 50px;
+  background-color: greenyellow;
+}
+
+#footer {
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+#footer .footer-inner-circle {
+  z-index: 1000;
+  font-weight: 600;
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 75px;
+  height: 75px;
+  background-color: #c5cf5f;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-top: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#footer .footer-inner-circle .material-symbols-outlined {
+  display: block;
+  font-size: 40px;
+  color: #975fcf;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+#footer .footer-inner-circle:hover .material-symbols-outlined {
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+}
+#footer .fa-solid .fa-envelope {
+  text-decoration: none;
+}
+#footer .footer-main {
+  font-size: 12px;
+  color: white;
+  background-color: #975fcf;
+  height: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  padding-bottom: 10px;
+}
+#footer .footer-outer-circle {
+  z-index: 100;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
 }
 
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
 }
 
@@ -1222,4 +1443,4 @@ a {
 
 section {
   margin-bottom: 80px !important;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

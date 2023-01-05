@@ -9,6 +9,7 @@
     <link rel="apple-touch-icon" href="./img/favicon.png" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -17,6 +18,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <!-- 読み込みバグ(transition)回避 -->
+    <script>
+      console.log("");
+    </script>
   </head>
   <body id="body">
     <header id="header" class="container">
@@ -25,13 +30,13 @@
       </a>
 
       <ul class="header_menu_1">
-        <li><a href="#slide_show">SLIDE_SHOW</a></li>
+        <li><a href="#grid">GRID</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#card">CARD</a></li>
       </ul>
       <!-- スライド -->
       <ul class="header_menu_2">
-        <li><a href="#slide_show">SLIDE_SHOW</a></li>
+        <li><a href="#grid">GRID</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#card">CARD</a></li>
       </ul>
@@ -46,30 +51,22 @@
     <section id="side_menu_section">
       <div id="side_menu">
         <ul>
-          <li><a href="#slide_show">SLIDE_SHOW</a></li>
+          <li><a href="#grid">GRID</a></li>
           <li><a href="#contact">CONTACT</a></li>
           <li><a href="#card">CARD</a></li>
         </ul>
       </div>
     </section>
     <section id="slide_show" class="container">
-      <!-- Slider main container -->
       <div class="swiper">
-        <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-          <!-- Slides -->
           <div class="swiper-slide"></div>
           <div class="swiper-slide"></div>
           <div class="swiper-slide"></div>
         </div>
-        <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
       </div>
     </section>
@@ -121,7 +118,6 @@
       </div>
     </section>
     <section id="grid">
-      <div>GRID</div>
       <div class="frame">
         <div class="grid_item">header_logo</div>
         <div class="grid_item">header</div>
@@ -167,7 +163,6 @@
       </p>
     </section>
     <section id="sticky">
-      <div>sticky</div>
       <div class="sticky_container">
         <section id="left">
           <div class="left_box_1">
@@ -305,29 +300,31 @@
       <video src="./img/video.mp4" controls autoplay loop muted></video>
     </section>
     <section id="card">
-      <div class="main-card">
-        <img src="./img/item7.jpg" alt="" />
-        <div class="card-contents">
-          <ul>
-            <li>
-              <span class="material-symbols-outlined"> check_circle </span>
-            </li>
-            <li>
-              <span class="material-symbols-outlined"> heart_plus </span>
-            </li>
-            <li><span class="material-symbols-outlined"> person </span></li>
-            <li>
-              <span class="material-symbols-outlined"> emoji_flags </span>
-            </li>
-          </ul>
-          <div class="text-content">
-            <h1>Lorem ipsum</h1>
-            <p>Lorem ipsum dolor sit amet</p>
+      <a>
+        <div class="main-card">
+          <img src="./img/item7.jpg" alt="" />
+          <div class="card-contents">
+            <ul>
+              <li>
+                <span class="material-symbols-outlined"> check_circle </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> heart_plus </span>
+              </li>
+              <li><span class="material-symbols-outlined"> person </span></li>
+              <li>
+                <span class="material-symbols-outlined"> emoji_flags </span>
+              </li>
+            </ul>
+            <div class="text-content">
+              <h1>Lorem ipsum</h1>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     </section>
-    <section id="scroll-section">
+    <section id="scroll_section">
       <div class="area area-1">1</div>
       <div class="area area-2">2</div>
       <div class="area area-3">3</div>
@@ -335,30 +332,34 @@
       <div class="area area-5">5</div>
     </section>
     <section id="background_color_change">
-      <div>この要素は背景黒</div>
-      <div>この要素に入ったら背景なんかの画像</div>
-      <div>この要素に入ったら背景黒</div>
+      <div class="black_out"></div>
+      <div id="img_content">
+        ここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツ
+        ここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツここにコンテンツ
+      </div>
+      <div class="black_out"></div>
+      <div id="img_in"></div>
     </section>
+
     <section id="opening_animation">
-      <p>
-        <img src="./img/location.jpeg" alt="" />
-      </p>
-      <h1>オープニングアニメーション</h1>
+      <div class="start">
+        <img id="animation_img" src="./img/logo.png" alt="" />
+      </div>
     </section>
     <footer>
-      <div class="footer-content">
-        <a href="">
+      <div>オープニングアニメーション</div>
+      <div>Trelloのデザインカードのやりたいやつやる</div>
+      <div id="footer">
+        <a href="./page_1.html">
           <div class="footer-inner-circle">
             <span class="material-symbols-outlined"> handshake </span>
           </div>
         </a>
         <div class="footer-outer-circle"></div>
-        <div>Trelloのデザインカードのやりたいやつやる</div>
         <div class="footer-main">&copy;2022 OKONI JAPAN</div>
       </div>
     </footer>
     <script src="./scripts/header.js"></script>
-    <script src="./scripts/footer.js"></script>
     <script src="./scripts/side_menu.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"
@@ -371,5 +372,7 @@
     <script src="./scripts/rellax.js"></script>
     <script src="./scripts/move_img.js"></script>
     <script src="./scripts/contact.js"></script>
+    <script src="./scripts/background_color_change.js"></script>
+    <script src="./scripts/opening_animation.js"></script>
   </body>
 </html>
