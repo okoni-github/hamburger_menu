@@ -1,0 +1,35 @@
+@use "./variables" as var;
+
+#mouse_stalker {
+  .pointer_parent {
+    display: flex;
+    transition: all 0.3s ease-out;
+    transform: translate3d(50vw, 50vh, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    .pointer {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: var.$accent_color;
+      opacity: 0.54;
+      margin: -30px 0 0 -30px;
+      transition: all 0.3s ease;
+      opacity: 0;
+    }
+  }
+  .pointer_parent.pointer_parent_active .pointer {
+    opacity: 0.54;
+  }
+  .pointer_parent.pointer_hover {
+    mix-blend-mode: difference;
+  }
+
+  .pointer_parent.pointer_hover .pointer {
+    transform: scale(0.2);
+  }
+}

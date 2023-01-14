@@ -1,3 +1,10 @@
+gsap.to(`.header`, {
+  y: "200px",
+  // delay: 2,
+  duration: 2,
+  ease: "bounce.out(1.2, 0.2)",
+});
+
 // ハンバーガーメニュー
 const hamburger_menu = document.getElementById("hamburger_menu");
 const bar_1 = document.getElementsByClassName("bar_1");

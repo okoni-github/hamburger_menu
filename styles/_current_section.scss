@@ -1,0 +1,141 @@
+@use "./variables" as var;
+
+#current_section {
+  position: relative;
+  z-index: 9998;
+  width: 100%;
+  ul {
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: var.$accent_color;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 0;
+
+    li {
+      z-index: 9997;
+      position: relative;
+      margin: 0 auto;
+      width: 80px;
+      text-align: center;
+      a {
+        color: white;
+      }
+    }
+
+    #current_box {
+      overflow: hidden;
+      position: absolute;
+      // defaultはTOP
+      top: 0px;
+      left: 0;
+      background-color: var.$main_color;
+      border-radius: 10px;
+      width: 100%;
+      height: 24px;
+      margin: 10px 0;
+      transition: all 0.4s ease-out;
+    }
+
+    .move_TOP {
+      animation: move_top 0.4s ease 0s;
+    }
+
+    @keyframes move_top {
+      0% {
+        scale: 1;
+      }
+
+      30% {
+        scale: 0.6;
+      }
+
+      50% {
+        scale: 0.4;
+      }
+
+      70% {
+        scale: 0.6;
+      }
+      100% {
+        scale: 1;
+      }
+    }
+
+    .move_grid {
+      top: 24px !important;
+      animation: move_grid 0.4s ease 0s;
+    }
+    @keyframes move_grid {
+      0% {
+        scale: 1;
+      }
+
+      30% {
+        scale: 0.6;
+      }
+
+      50% {
+        scale: 0.4;
+      }
+
+      70% {
+        scale: 0.6;
+      }
+      100% {
+        scale: 1;
+      }
+    }
+
+    .move_contact {
+      top: 48px !important;
+      animation: move_contact 0.4s ease 0s;
+    }
+    @keyframes move_contact {
+      0% {
+        scale: 1;
+      }
+
+      30% {
+        scale: 0.6;
+      }
+
+      50% {
+        scale: 0.4;
+      }
+
+      70% {
+        scale: 0.6;
+      }
+      100% {
+        scale: 1;
+      }
+    }
+    .move_card {
+      top: 72px !important;
+      animation: move_card 0.4s ease 0s;
+    }
+    @keyframes move_card {
+      0% {
+        scale: 1;
+      }
+
+      30% {
+        scale: 0.6;
+      }
+
+      50% {
+        scale: 0.4;
+      }
+
+      70% {
+        scale: 0.6;
+      }
+      100% {
+        scale: 1;
+      }
+    }
+  }
+}

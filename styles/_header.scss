@@ -12,9 +12,12 @@ header {
   height: 200px;
   margin-bottom: 80px;
   z-index: 1000;
-
-  img {
-    width: 200px;
+  .header {
+    top: -200px;
+    img {
+      transform: translateY(-200px);
+      width: 200px;
+    }
   }
 
   .header_menu_1 {

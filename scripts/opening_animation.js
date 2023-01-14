@@ -1,13 +1,22 @@
-let animation_img = document.getElementById("animation_img");
-
-addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    animation_img.classList.add("active_animation");
-    console.log("aaaaa");
-  }, 3000);
-
-  setTimeout(() => {
-    animation_img.classList.remove("active_animation");
-    console.log("bbbbb");
-  }, 3000);
+$(function () {
+  var webStorage = function () {
+    if (sessionStorage.getItem("access")) {
+      /*
+        2回目以降アクセス時の処理
+      */
+      $(".loading").addClass("is_active");
+    } else {
+      /*
+        初回アクセス時の処理
+      */
+      sessionStorage.setItem("access", "true"); // sessionStorageにデータを保存
+      $(".loading_animation").addClass("is_active"); // loadingアニメーションを表示
+      setTimeout(function () {
+        // ローディングを数秒後に非表示にする
+        $(".loading").addClass("is_active");
+        $(".loading_animation").removeClass("is_active");
+      }, 1800); // ローディングを表示する時間
+    }
+  };
+  webStorage();
 });

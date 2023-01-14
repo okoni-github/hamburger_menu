@@ -14,6 +14,10 @@
 @use "./card";
 @use "./scroll_section";
 @use "./background_color_change";
+@use "./hover_movebutton";
+@use "./mouse_stalker";
+@use "./hover_3D";
+@use "./current_section";
 @use "./opening_animation";
 @use "./footer";
 
@@ -24,6 +28,10 @@
   //簡単スクロール
   // scroll-behavior: smooth;
   text-align: center;
+}
+
+body {
+  background-color: #fff;
 }
 
 li {

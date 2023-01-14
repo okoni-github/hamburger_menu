@@ -6,7 +6,7 @@ addEventListener(
 
     // 要素の頭が床に着くまでの距離
     let rect_top = img_content.getBoundingClientRect().top;
-    // 要素の頭がまでの距離
+    // 要素のけつが床に着くまでの距離
     let rect_bottom = img_content.getBoundingClientRect().bottom;
     // windowの高さ
     let height = window.innerHeight;
